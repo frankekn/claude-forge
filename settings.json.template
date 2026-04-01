@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "_comment": "This is a template. Run install.sh to merge into ~/.claude/settings.json",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ~/.claude/scripts/ecc-update-hook.js",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}
