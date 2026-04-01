@@ -91,6 +91,14 @@ git submodule update --remote
 ./install.sh
 ```
 
+## 给 LLM Agent 使用
+
+获取安装指南并按步骤执行：
+
+```
+curl -s https://raw.githubusercontent.com/frankekn/claude-forge/main/llms-install.md
+```
+
 ## 前置要求
 
 - [Node.js](https://nodejs.org/) (v18+)
