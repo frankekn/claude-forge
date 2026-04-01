@@ -1,5 +1,7 @@
 # claude-forge
 
+![claude-forge banner](assets/banner.jpg)
+
 A Traditional Chinese (zh-TW) friendly configuration pack for [Claude Code](https://docs.anthropic.com/en/docs/claude-code). Built on top of [Everything Claude Code (ECC)](https://github.com/affaan-m/everything-claude-code) and inspired by [gstack](https://github.com/garrytan/gstack)'s update mechanism.
 
 Claude Code 繁體中文友善設定包。基於 [Everything Claude Code (ECC)](https://github.com/affaan-m/everything-claude-code) 打造，自動更新機制參考 [gstack](https://github.com/garrytan/gstack) 的設計。
