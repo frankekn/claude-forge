@@ -1,4 +1,4 @@
-# vibe-claude-setup
+# claude-forge
 
 A Traditional Chinese (zh-TW) friendly configuration pack for [Claude Code](https://docs.anthropic.com/en/docs/claude-code). Built on top of [Everything Claude Code (ECC)](https://github.com/affaan-m/everything-claude-code) and inspired by [gstack](https://github.com/garrytan/gstack)'s update mechanism.
 
@@ -21,8 +21,8 @@ Claude Code 繁體中文友善設定包。基於 [Everything Claude Code (ECC)](
 ## Quick Start / 快速安裝
 
 ```bash
-git clone --recursive https://github.com/frankekn/vibe-claude-setup.git
-cd vibe-claude-setup
+git clone --recursive https://github.com/frankekn/claude-forge.git
+cd claude-forge
 ./install.sh
 ```
 
@@ -35,7 +35,7 @@ git submodule update --init
 ## What's Included / 包含什麼
 
 ```
-vibe-claude-setup/
+claude-forge/
 ├── install.sh              # One-click installer / 一鍵安裝
 ├── CLAUDE.md.template      # Global instructions template / 全域指令模板
 ├── rules/zh/               # zh-TW rule translations / 繁中規則翻譯
@@ -94,7 +94,7 @@ rm ~/.claude/.ecc-state/update-disabled       # Enable / 啟用
 ## Updating This Pack / 更新此設定包
 
 ```bash
-cd vibe-claude-setup
+cd claude-forge
 git pull
 git submodule update --remote
 ./install.sh

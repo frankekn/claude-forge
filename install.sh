@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# vibe-claude-setup installer
+# claude-forge installer
 #
 # Sets up:
 #   1. ECC plugin (via submodule)
@@ -17,7 +17,7 @@ PLUGINS_DIR="$CLAUDE_DIR/plugins"
 ECC_DIR="$PLUGINS_DIR/everything-claude-code"
 SETTINGS_FILE="$CLAUDE_DIR/settings.json"
 
-echo "=== vibe-claude-setup installer ==="
+echo "=== claude-forge installer ==="
 echo ""
 
 # ─── Step 0: Prerequisites ─────────────────────────────────
@@ -124,4 +124,4 @@ echo "  1. Start a new Claude Code session to verify"
 echo "  2. Run 'bash ~/.claude/scripts/ecc-update-check.sh --force' to test update check"
 echo "  3. Customize $CLAUDE_DIR/CLAUDE.md to your preferences"
 echo ""
-echo "Happy vibing!"
+echo "Happy forging!"
